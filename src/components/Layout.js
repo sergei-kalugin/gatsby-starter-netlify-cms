@@ -48,6 +48,20 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
+
+      <div className="site-name">
+        <h1>eve kalugin</h1>
+      </div>
+
+      <div className="main-wrapper">
+        <nav className="sidebar-navigation">
+          [SIDEBAR]
+        </nav>
+        <main>
+          [CONTENT]
+        </main>
+      </div>
+
       <Navbar />
       <div>{children}</div>
       <Footer />
